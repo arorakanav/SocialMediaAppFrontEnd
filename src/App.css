@@ -15,19 +15,84 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.header-item {
+  margin: 8px;
+  cursor: pointer;
+}
+.margin-left-auto {
+  display: flex;
+  margin-left: auto;
+}  
 .App-link {
   color: #61dafb;
 }
 
+.feed-container {
+  padding: 16px;
+}
+.feed-container > .feed{
+  margin-top: 16px;
+}
+.user-detail {
+  font-size: 24px;
+  padding: 16px;
+}
+.input-container > input {
+  height: 120px;
+  width: 540px;
+  margin-top: 16px;
+}
+
+.feed-container > .page-title {
+  font-size: 18px;
+  
+}
+
+.tweet, .post {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.post > .post-message {
+  margin-left: 18px;
+}
+.tweet > .text {
+  margin-left: 18px;
+}
+.input-container > button {
+  display: block;
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.login-page {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ .login-header {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.login-facebook, .login-twitter {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.login-facebook {
+  color: #3b5998;
+}
+.login-twitter {
+  color: #1DA1F2;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
